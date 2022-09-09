@@ -59,7 +59,7 @@ function createListOfCountry(countries) {
             <img class="country__flag" 
             src="${country.flags.png}" 
             alt="Flag" width=20>
-            <p>${country.name.official} (${country.name.common})</p>
+            <p>${country.name.official}</p>
         </li>
         `;
     })
